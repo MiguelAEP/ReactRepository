@@ -1,0 +1,39 @@
+body{
+    
+    padding: 30px;
+    background-image: url("../PeliculasPro/fondo3.jpg");
+    background-image: no-repeat;
+        background-image: fixed;
+        background-image: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+       
+}
+
+.color img {
+    filter: grayscale(0%);
+        filter: gray;
+        -webkit-filter: grayscale(0%);
+        filter: none;
+        transition: 1s ease;
+}
+
+.color img:hover {
+    filter: grayscale(70%);
+        -webkit-filter: grayscale(70%);
+        -webkit-transition: all 1s ease;
+}
+
+.shrink img {
+    transition: 1s ease;
+}
+
+.shrink img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}

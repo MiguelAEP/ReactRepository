@@ -1,0 +1,22 @@
+@media only screen and (max-width: 955px) {
+    .navb {
+        flex-direction:row ;
+        columns: 4;
+        flex-wrap: nowrap   ;
+        justify-content: center;
+        margin-top: 2rem;
+        background: #dacdcd;
+        border: 1px solid #7C7C7C;
+        list-style: none;
+        margin: 0;
+        padding: 0;       
+    }
+}
+
+.navb{
+        background: #dacdcd;
+        border: 1px solid #7C7C7C;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
